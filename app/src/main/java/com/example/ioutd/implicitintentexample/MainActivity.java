@@ -21,12 +21,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-    // Buttons that will call the implicit intents
-    @BindView(R.id.button_call) Button buttonCall;
-    @BindView(R.id.button_map) Button buttonMap;
-    @BindView(R.id.button_webpage) Button buttonWebpage;
-    @BindView(R.id.button_email) Button buttonEmail;
-    @BindView(R.id.button_calendar) Button buttonCalendar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
