@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ioutd.implicitintentexample.MainActivity">
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_call"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_Map"
+        app:layout_constraintStart_toStartOf="@+id/button_call"
+        app:layout_constraintTop_toBottomOf="@+id/button_call" />
+
+    <Button
+        android:id="@+id/button_webpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_webpage"
+        app:layout_constraintStart_toStartOf="@+id/button_map"
+        app:layout_constraintTop_toBottomOf="@+id/button_map" />
+
+    <Button
+        android:id="@+id/button_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_email"
+        app:layout_constraintStart_toStartOf="@+id/button_webpage"
+        app:layout_constraintTop_toBottomOf="@+id/button_webpage" />
+
+    <Button
+        android:id="@+id/button_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/button_calendar"
+        app:layout_constraintStart_toStartOf="@+id/button_email"
+        app:layout_constraintTop_toBottomOf="@+id/button_email" />
+
+</android.support.constraint.ConstraintLayout>
