@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.ioutd.implicitintentexample.MainActivity">
 
+    <!--TODO (3): Add the respective string resources for the text on each button-->
     <Button
         android:id="@+id/button_call"
         android:layout_width="wrap_content"
@@ -14,7 +15,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/button_call"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/button_Map"
         app:layout_constraintStart_toStartOf="@+id/button_call"
         app:layout_constraintTop_toBottomOf="@+id/button_call" />
 
@@ -35,7 +34,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/button_webpage"
         app:layout_constraintStart_toStartOf="@+id/button_map"
         app:layout_constraintTop_toBottomOf="@+id/button_map" />
 
@@ -44,7 +42,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/button_email"
         app:layout_constraintStart_toStartOf="@+id/button_webpage"
         app:layout_constraintTop_toBottomOf="@+id/button_webpage" />
 
@@ -53,7 +50,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/button_calendar"
         app:layout_constraintStart_toStartOf="@+id/button_email"
         app:layout_constraintTop_toBottomOf="@+id/button_email" />
 

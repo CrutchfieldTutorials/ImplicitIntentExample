@@ -1,12 +1,13 @@
 <resources>
     <string name="app_name">ImplicitIntentExample</string>
+    <!--TODO (1): Create the string resources for the button labels-->
     <string name="button_call">Call</string>
     <string name="button_Map">Map</string>
     <string name="button_webpage">Web Page</string>
     <string name="button_email">Email</string>
     <string name="button_calendar">Calendar</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
+
+    <!--TODO (2): Create the string resources for messages that will be displayed in MainActivity-->
     <string name="cant_receive_intent">No app installed to receive intent</string>
     <string name="chooser_title">Send with</string>
 </resources>
