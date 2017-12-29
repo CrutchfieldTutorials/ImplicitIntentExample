@@ -1,12 +1,12 @@
 <resources>
     <string name="app_name">ImplicitIntentExample</string>
+
     <string name="button_call">Call</string>
     <string name="button_Map">Map</string>
     <string name="button_webpage">Web Page</string>
     <string name="button_email">Email</string>
     <string name="button_calendar">Calendar</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
+
     <string name="cant_receive_intent">No app installed to receive intent</string>
     <string name="chooser_title">Send with</string>
 </resources>
